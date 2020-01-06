@@ -108,3 +108,7 @@ A: We are always looking for new sample ideas, please email dev-samples@stripe.c
 - [@dylanw-stripe](https://github.com/dylanw-stripe)
 - [@markt-stripe](https://github.com/markt-stripe)
 - [@seanfitz-stripe](https://github.com/seanfitz-stripe)
+
+
+# Environment variables
+STATIC_DIR=../../client
