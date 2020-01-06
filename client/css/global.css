@@ -355,8 +355,9 @@ pre {
 }
 
 .sr-animal-emoji {
-  font-size:10vw;
-  margin:0px;
+  font-size:25px;
+  margin:10px;
+  border: 15px;
   opacity: .5;
 }
 
@@ -377,7 +378,7 @@ pre {
 }
 
 .sr-main {
-  width: 35%;
+  width: 30%;
   font-size:2vw;
   float: right;
 }
@@ -400,6 +401,7 @@ pre {
 
   .sr-main {
     width: 100%;
+    
   }
 
   .summary-table {

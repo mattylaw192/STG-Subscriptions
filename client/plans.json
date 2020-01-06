@@ -1,56 +1,39 @@
 [
     {
         "planId": "stripe-example-bear",
-        "price": 80000,
-        "title": "bear",
-        "emoji": "🐻"
+        "price": 500,
+        "title": "$5/mo"
+   
     },
     {
         "planId": "stripe-example-koala",
-        "price": 30000,
-        "title": "koala",
-        "emoji": "🐨"
+        "price": 1000,
+        "title": "$10/mo"
+      
     },
     {
         "planId": "stripe-example-panda",
-        "price": 60000,
-        "title": "panda",
-        "emoji": "🐼"
+        "price": 1500,
+        "title": "$15/mo"
+      
     },
     {
         "planId": "stripe-example-dog",
-        "price": 10000,
-        "title": "dog",
-        "emoji": "🐶"
+        "price": 2000,
+        "title": "$20/mo"
+        
     },
     {
         "planId": "stripe-example-cat",
-        "price": 15000,
-        "title": "cat",
-        "emoji": "🐱"
+        "price": 2500,
+        "title": "$25/mo"
+      
     },
     {
         "planId": "stripe-example-tiger",
-        "price": 65000,
-        "title": "tiger",
-        "emoji": "🐯"
-    },
-    {
-        "planId": "stripe-example-horse",
-        "price": 55000,
-        "title": "horse",
-        "emoji": "🐴"
-    },
-    {
-        "planId": "stripe-example-rabbit",
-        "price": 5000,
-        "title": "rabbit",
-        "emoji": "🐰"
-    },
-    {
-        "planId": "stripe-example-dragon",
-        "price": 10000000,
-        "title": "dragon",
-        "emoji": "🐲"
+        "price": 3000,
+        "title": "$30/mo"
+        
     }
+    
 ]
