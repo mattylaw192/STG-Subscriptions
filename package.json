@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/mattylaw192/STG-Subscriptions/issues"
   },
-  "homepage": "https://github.com/mattylaw192/STG-Subscriptions#readme"
+  "homepage": "https://github.com/mattylaw192/STG-Subscriptions#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
