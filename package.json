@@ -1,0 +1,20 @@
+{
+  "name": "STG-Subscriptions",
+  "version": "1.0.0",
+  "description": "This sample shows how to create a customer and subscribe them to multiple flat rate plans with [Stripe Billing](https://stripe.com/billing). For step by step directions showing how to implement this, use the [Stripe Billing quickstart](https://stripe.com/docs/billing/quickstart) (you may also find [Working with Multiple Plans per Subscription](https://stripe.com/docs/billing/subscriptions/multiplan) helpful).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattylaw192/STG-Subscriptions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattylaw192/STG-Subscriptions/issues"
+  },
+  "homepage": "https://github.com/mattylaw192/STG-Subscriptions#readme"
+}
