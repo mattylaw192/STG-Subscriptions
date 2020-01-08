@@ -32,4 +32,4 @@ scripts/
 test/
 build.sh
 start.sh 
-stop.sh
+stop.shnode_modules
