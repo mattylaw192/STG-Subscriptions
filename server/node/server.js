@@ -151,8 +151,8 @@ function errorHandler(err, req, res, next) {
 
 app.use(errorHandler);
 
-// app.listen(4242, () => console.log(`Node server listening on port ${4242}!`));
+app.listen(4242, () => console.log(`Node server listening on port ${4242}!`));
 
-app.listen(process.env.PORT || 4242, function(){
-  console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
-});
+// app.listen(process.env.PORT || 4242, function(){
+//   console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
+// });
