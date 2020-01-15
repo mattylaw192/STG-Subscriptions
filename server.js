@@ -5,7 +5,7 @@ const { resolve } = require("path");
 const env = require("dotenv").config({ path: "./.env" });
 const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);
 
-const MIN_PLANS_FOR_DISCOUNT = 2;
+const MIN_PLANS_FOR_DISCOUNT = 10;
 app.use(express.static(process.env.STATIC_DIR));
 
 app.use(
@@ -60,7 +60,7 @@ app.post(
         return { plan: planId };
       }),
       expand: ["latest_invoice.payment_intent"],
-      // coupon: coupon
+      coupon: coupon
     });
 
     res.send(subscription);
