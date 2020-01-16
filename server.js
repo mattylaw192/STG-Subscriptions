@@ -12,7 +12,7 @@ app.use(
   express.json({
     // We need the raw body to verify webhook signatures.
     // Let's compute it only when hitting the Stripe webhook endpoint.
-    verify: function(req, res, buf) {
+    verify: function (req, res, buf) {
       if (req.originalUrl.startsWith("/webhook")) {
         req.rawBody = buf.toString();
       }
@@ -49,8 +49,8 @@ app.post(
     // // In this example, we apply the coupon if the number of plans purchased
     // // meets or exceeds the threshold.
     planIds = req.body.plan_ids;
-    const eligibleForDiscount = planIds.length >= MIN_PLANS_FOR_DISCOUNT;
-    const coupon = eligibleForDiscount ? process.env.COUPON_ID : null;
+    // const eligibleForDiscount = planIds.length >= MIN_PLANS_FOR_DISCOUNT;
+    // const coupon = eligibleForDiscount ? process.env.COUPON_ID : null;
 
     // At this point, associate the ID of the Customer object with your
     // own internal representation of a customer, if you have one.
@@ -59,8 +59,8 @@ app.post(
       items: planIds.map(planId => {
         return { plan: planId };
       }),
-      expand: ["latest_invoice.payment_intent"],
-      coupon: coupon
+      expand: ["latest_invoice.payment_intent"]
+      // coupon: coupon
     });
 
     res.send(subscription);
@@ -153,6 +153,6 @@ app.use(errorHandler);
 
 // app.listen(4242, () => console.log(`Node server listening on port ${4242}!`));
 
-app.listen(process.env.PORT || 4242, function(){
+app.listen(process.env.PORT || 4242, function () {
   console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
 });

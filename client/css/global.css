@@ -393,12 +393,33 @@ pre {
 }
 
 /* Responsiveness */
+@media (max-width: 600px) {
+  .sr-animals {
+    width: 50%;
+    margin-bottom: 8vw;
+  }
+  h3{
+    color:purple;
+ }
+  .sr-main {
+    width: 100%;
+    
+  }
+
+  .summary-table {
+    width: auto;
+  }
+}
+
+/* cell phones */
 @media (max-width: 720px) {
   .sr-animals {
     width: 100%;
     margin-bottom: 8vw;
   }
-
+  h3{
+    color:purple;
+ }
   .sr-main {
     width: 100%;
     

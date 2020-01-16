@@ -11,6 +11,11 @@
 
 body{
     color:#091833;
+    width:100%;
+}
+
+header{
+    width:100%;
 }
 
 
@@ -66,7 +71,14 @@ img{
 }
 
 div.jumbotron.jumbotron-fluid{
-    margin: auto;
+    /* margin: auto; */
+    background-color:#091833;
+    color:white;
+    width:100%;
+}
+
+div.jumbotron{
+    /* margin: auto; */
     background-color:#091833;
     color:white;
     width:100%;
@@ -76,24 +88,6 @@ div.jumbotron.jumbotron-fluid{
     float:right;
 }
 
-
-/* #paypalInfo{
-
-    margin:auto;
-} */
-
-
-/* #submit{
-position: relative;
-top:5px;
-left: 10%;
-margin: auto;
-} */
-
-
-/* table{
-    margin:auto;
-} */
 
 
 #footer{
@@ -123,30 +117,3 @@ a{
 #donationDiv{
     margin: 10px auto;
 }
-
-/* 
-@media screen and (max-width: 700px) {
-    #rules {
-      font-size: 14px;
-    }
-    #headerSubText{
-        font-size:15px;
-    }
-
-    .btn.btn-primary{
-        position: relative;
-        top:5px;
-        left: 1%;
-        background-color:#091833;
-        margin: auto;
-        } */
-
-        #submit{
-            position: relative;
-            top:5px;
-            left: 1%;
-            
-            margin: auto;
-        }
-    }
-} */
