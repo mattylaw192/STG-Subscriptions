@@ -366,7 +366,7 @@ pre {
 }
 
 .sr-body {
-  margin: 20px 50px;
+  /* margin: 20px 50px; */
 }
 
 .sr-animals {
@@ -395,8 +395,9 @@ pre {
 /* Responsiveness */
 @media (max-width: 600px) {
   .sr-animals {
-    width: 50%;
+    width: 40%;
     margin-bottom: 8vw;
+    
     grid-template-columns: repeat(2, 1fr);
   }
 
