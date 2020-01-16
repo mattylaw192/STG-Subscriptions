@@ -108,7 +108,7 @@ h4 {
   color: var(--gray-light);
   text-align: center;
   font-size: 1.3vw;
-  line-height: 17px;
+  line-height: 21px;
   margin-top: 1vw;
 }
 .sr-legal-text.left {
@@ -397,17 +397,31 @@ pre {
   .sr-animals {
     width: 50%;
     margin-bottom: 8vw;
+    grid-template-columns: repeat(2, 1fr);
   }
+
   h3{
-    color:purple;
+    color:orange;
+    font-size: 4vw;
+
  }
   .sr-main {
     width: 100%;
+    font-size:3vw;
     
   }
 
   .summary-table {
     width: auto;
+    font-size:3vw;
+  }
+
+  .sr-legal-text {
+    color: var(--gray-light);
+    text-align: center;
+    font-size: 2vw;
+    line-height: 21px;
+    margin-top: 1vw;
   }
 }
 
