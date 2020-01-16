@@ -95,17 +95,17 @@ var updateSummaryTable = function () {
       .reduce((plan1, plan2) => plan1 + plan2, 0);
   };
 
-  var computeDiscountPercent = function () {
-    var selectedPlans = getSelectedPlans();
-    var eligibleForDiscount = selectedPlans.length >= minPlansForDiscount;
-    return eligibleForDiscount ? discountFactor : 0;
-  };
+  // var computeDiscountPercent = function () {
+  //   var selectedPlans = getSelectedPlans();
+  //   var eligibleForDiscount = selectedPlans.length >= minPlansForDiscount;
+  //   return eligibleForDiscount ? discountFactor : 0;
+  // };
 
   var selectedPlans = getSelectedPlans();
-  var discountPercent = computeDiscountPercent();
+  // var discountPercent = computeDiscountPercent();
   var subtotal = computeSubtotal();
-  var discount = discountPercent * subtotal;
-  var total = subtotal - discount;
+  // var discount = discountPercent * subtotal;
+  var total = subtotal;
 
   var orderSummary = document.getElementById('summary-table');
   if (orderSummary) {
@@ -125,10 +125,10 @@ var updateSummaryTable = function () {
       for (var i = 0; i < selectedPlans.length; i++) {
         orderSummary.innerHTML += buildOrderSummaryRow('summary-product', selectedPlans[i].title, selectedPlans[i].price);
       }
-      if (discount > 0) {
-        orderSummary.innerHTML += buildOrderSummaryRow('summary-subtotal', 'Subtotal', subtotal);
-        orderSummary.innerHTML += buildOrderSummaryRow('summary-discount', 'Discount', discount);
-      }
+      // if (discount > 0) {
+      //   orderSummary.innerHTML += buildOrderSummaryRow('summary-subtotal', 'Subtotal', subtotal);
+      //   orderSummary.innerHTML += buildOrderSummaryRow('summary-discount', 'Discount', discount);
+      // }
       orderSummary.innerHTML += buildOrderSummaryRow('summary-total', 'Total', total);
     }
     document.getElementById('summary-preface').innerHTML = preface;

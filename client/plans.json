@@ -1,36 +1,36 @@
 [
     {
-        "planId": "prod_GY7oTCXTkAjzdW",
+        "planId": "Gimme5",
         "price": 500,
         "title": "$5/mo"
    
     },
     {
-        "planId": "stripe-example-koala",
+        "planId": "plan_GYTGAC5um2k9ds",
         "price": 1000,
         "title": "$10/mo"
       
     },
     {
-        "planId": "stripe-example-panda",
+        "planId": "plan_GYTHJ20xHziTwl",
         "price": 1500,
         "title": "$15/mo"
       
     },
     {
-        "planId": "stripe-example-dog",
+        "planId": "plan_GYTIYPYcFlcFL7",
         "price": 2000,
         "title": "$20/mo"
         
     },
     {
-        "planId": "stripe-example-cat",
+        "planId": "plan_GYTJ79JG7mGsuZ",
         "price": 2500,
         "title": "$25/mo"
       
     },
     {
-        "planId": "stripe-example-tiger",
+        "planId": "plan_GYTK6KgYHsC2U0",
         "price": 3000,
         "title": "$30/mo"
         
