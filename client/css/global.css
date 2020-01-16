@@ -402,13 +402,13 @@ pre {
   }
 
   h3{
-    color:orange;
+    color:#1A355D;
     font-size: 4vw;
 
  }
   .sr-main {
     width: 100%;
-    font-size:3vw;
+    font-size:5vw;
     
   }
 
@@ -433,15 +433,26 @@ pre {
     margin-bottom: 8vw;
   }
   h3{
-    color:purple;
+    color:#1A355D;
+    font-size:5vw;
  }
   .sr-main {
     width: 100%;
+    font-size:3vw;
     
   }
 
   .summary-table {
     width: auto;
+    font-size:4vw;
+  }
+
+  .sr-legal-text {
+    color: var(--gray-light);
+    text-align: center;
+    font-size: 4vw;
+    line-height: 21px;
+    margin-top: 1vw;
   }
 }
 
