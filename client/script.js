@@ -120,7 +120,7 @@ var updateSummaryTable = function () {
     if (selectedPlans.length == 0) {
       preface = 'No plans selected';
     } else {
-      preface = 'Prices listed correspond to a recurrent monthly susbcription';
+      preface = 'Prices listed correspond to a recurrent monthly subscription';
 
       for (var i = 0; i < selectedPlans.length; i++) {
         orderSummary.innerHTML += buildOrderSummaryRow('summary-product', selectedPlans[i].title, selectedPlans[i].price);
