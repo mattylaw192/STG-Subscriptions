@@ -1,0 +1,4 @@
+{
+  "defaults": {},
+  "sites": [{"Gimme5 Donations","localhost:4242","Gimme5 STG": ["localhost:4242"]}]
+}
