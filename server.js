@@ -1,5 +1,5 @@
-var sslRedirect = require('heroku-ssl-redirect');
 const express = require("express");
+var secure = require('ssl-express-www');
 const app = express();
 const { resolve } = require("path");
 // Replace if using a different env file or config
@@ -7,6 +7,8 @@ const env = require("dotenv").config({ path: "./.env" });
 const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);
 
 const MIN_PLANS_FOR_DISCOUNT = 10;
+
+app.use(secure);
 app.use(express.static(process.env.STATIC_DIR));
 
 app.use(
@@ -25,7 +27,7 @@ const asyncMiddleware = fn => (req, res, next) => {
   Promise.resolve(fn(req, res, next)).catch(next);
 };
 
-app.use(sslRedirect());
+
 
 app.get("/", (req, res) => {
   const path = resolve(process.env.STATIC_DIR + "/index.html");
