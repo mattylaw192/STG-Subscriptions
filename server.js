@@ -1,3 +1,4 @@
+var sslRedirect = require('heroku-ssl-redirect');
 const express = require("express");
 const app = express();
 const { resolve } = require("path");
@@ -23,6 +24,8 @@ app.use(
 const asyncMiddleware = fn => (req, res, next) => {
   Promise.resolve(fn(req, res, next)).catch(next);
 };
+
+app.use(sslRedirect());
 
 app.get("/", (req, res) => {
   const path = resolve(process.env.STATIC_DIR + "/index.html");
