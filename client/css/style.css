@@ -6,7 +6,7 @@
 
 #page-container{
     position:relative;
-    min-height: 1000px;
+    min-height: 800px;
 }
 
 body{
@@ -21,7 +21,7 @@ header{
 
 h1.intro-text{
     font-family: 'Permanent Marker', cursive;
-    font-size: 6vw;
+    font-size: 5vw;
     text-align: center;
     color:white;
 }
@@ -41,7 +41,7 @@ text-align: center;
 #headerSubText{
     color:#091833;
     text-align: center;
-    font-size: 4vw;
+    font-size: 2vw;
     font-family:'-apple-system', BlinkMacSystemFont, sans-serif;
     margin:25px;
 }
@@ -95,12 +95,14 @@ div.jumbotron{
 
 
 #footer{
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
     padding:1%;
     background-color: #1A355D;
     color:white;
+    height:100px;
+    margin:5% 0 0 0px;
 }
 
 
