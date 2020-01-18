@@ -21,6 +21,7 @@ header{
 
 h1.intro-text{
     font-family: 'Permanent Marker', cursive;
+    font-size: 6vw;
     text-align: center;
     color:white;
 }
@@ -38,8 +39,11 @@ text-align: center;
 
 
 #headerSubText{
-    color:#FFCE00;
+    color:#091833;
     text-align: center;
+    font-size: 4vw;
+    font-family:'-apple-system', BlinkMacSystemFont, sans-serif;
+    margin:25px;
 }
 
 #rules{
@@ -117,3 +121,36 @@ a{
 #donationDiv{
     margin: 10px auto;
 }
+
+@media (max-width: 800px) {
+    #headerSubText{
+        color:#091833;
+        text-align: center;
+        font-size: 4vw;
+        font-family:'-apple-system', BlinkMacSystemFont, sans-serif;
+        margin:25px;
+    }
+
+    h1.intro-text{
+        font-family: 'Permanent Marker', cursive;
+        font-size: 6vw;
+        text-align: center;
+        color:white;
+    }
+  }
+
+  @media (max-width: 600px) {
+    #headerSubText{
+        color:#091833;
+        text-align: center;
+        font-size: 5vw;
+        font-family:'-apple-system', BlinkMacSystemFont, sans-serif;
+        margin:25px;
+    }
+    h1.intro-text{
+        font-family: 'Permanent Marker', cursive;
+        font-size: 7vw;
+        text-align: center;
+        color:white;
+    }
+  }
