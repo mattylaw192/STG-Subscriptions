@@ -8,7 +8,7 @@ const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);
 
 const MIN_PLANS_FOR_DISCOUNT = 10;
 
-app.use(secure);
+// app.use(secure);
 app.use(express.static(process.env.STATIC_DIR));
 
 app.use(
