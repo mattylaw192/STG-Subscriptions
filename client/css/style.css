@@ -20,14 +20,14 @@ header{
 
 
 h1.intro-text{
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Open sans', sans-serif;
     font-size: 5vw;
     text-align: center;
     color:white;
 }
 
 h2{
-    font-family: 'Permanent Marker', cursive;
+    font-family:'Open sans', sans-serif;
     text-align: center;
     color:white;
 }
@@ -76,14 +76,14 @@ img{
 
 div.jumbotron.jumbotron-fluid{
     /* margin: auto; */
-    background-color:#72A6D5;
+    background-color:#002e6a;
     color:white;
     width:100%;
 }
 
 div.jumbotron{
     /* margin: auto; */
-    background-color:#72A6D5;
+    background-color:#002e6a;
     color:white;
     width:100%;
 }
@@ -99,7 +99,7 @@ div.jumbotron{
     bottom: 0;
     width: 100%;
     padding:1%;
-    background-color: #72A6D5;
+    background-color: #002e6a;
     color:white;
     height:100px;
     margin:5% 0 0 0px;
@@ -134,7 +134,7 @@ a{
     }
 
     h1.intro-text{
-        font-family: 'Permanent Marker', cursive;
+        font-family:'Open sans', sans-serif;
         font-size: 10vw;
         text-align: center;
         color:white;
@@ -150,7 +150,7 @@ a{
         margin:25px;
     }
     h1.intro-text{
-        font-family: 'Permanent Marker', cursive;
+        font-family: 'Open sans', sans-serif;
         font-size: 10vw;
         text-align: center;
         color:white;
